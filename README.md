@@ -31,10 +31,14 @@ RegisterNumber:  212222080033
 ```
 ```python
 import pandas as pd
-data= pd.read_csv("C:/Users/admin/Desktop/INTR MACH/spam.csv", encoding= 'Windows-1252')
+data= pd.read_csv("spam.csv",encoding='windows-1252')
+
 data.head()
+
 data.info()
+
 data.isnull().sum()
+
 x=data["v1"].values
 y=data["v2"].values
 
@@ -59,7 +63,9 @@ accuracy
 
 from sklearn.metrics import confusion_matrix, classification_report
 con= confusion_matrix(y_test, y_pred)
-print(con)cl=classification_report(y_test,y_pred)
+print(con)
+
+cl=classification_report(y_test,y_pred)
 print(cl)
 ```
 ## Output:
