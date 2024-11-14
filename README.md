@@ -61,28 +61,22 @@ from sklearn import metrics
 accuracy= metrics.accuracy_score(y_test, y_pred)
 accuracy
 
-from sklearn.metrics import confusion_matrix, classification_report
-con= confusion_matrix(y_test, y_pred)
-print(con)
-
-cl=classification_report(y_test,y_pred)
-print(cl)
 ```
 ## Output:
 
 ### data_head():
+![Code_vbNDleg2wo](https://github.com/user-attachments/assets/77fe6a77-1b60-498a-b24a-d36bf96485bb)
 
 
 ### data.isnull().sum():
+![Code_rGpoFZYxYv](https://github.com/user-attachments/assets/30d184b9-01a4-4e85-9e05-d25aef221213)
 
 
 ### accuracy:
+![Code_PzHfASbsbY](https://github.com/user-attachments/assets/427ccdc5-055f-4a69-8aaa-93cb5f05b005)
 
-
-### Confusion matrix:
-
-### Classification report:
-
+### Y_Pred:
+![Code_7tVrrnX8TZ](https://github.com/user-attachments/assets/83d1797d-6874-4e0e-9082-4e538132d019)
 
 ## Result:
 Thus the program to implement the SVM For Spam Mail Detection is written and verified using python programming.
