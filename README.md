@@ -25,8 +25,8 @@ To write a program to implement the SVM For Spam Mail Detection.
 ```python
 /*
 Program to implement the SVM For Spam Mail Detection..
-Developed by: Stephen raj Y
-RegisterNumber:  212223230217
+Developed by: Merryll S Sharon
+RegisterNumber:  212222080033
 */
 ```
 ```python
